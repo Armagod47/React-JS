@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 109, 119, 0.8);
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #495057;
+    padding: 1rem 2rem;
+}
+
+.containerx{
+    width: 900px;
+   height: 350px;
+}
+
+.quotedisplay{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+.quote{
+    font-size: 2rem;
+    color: white;
+   
+}
+
+.author{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #cce3de;
+    margin-top: 1.5rem;
+}
+
+.btn{
+    margin-top: 1.5rem;
+    cursor: pointer;
+    color: rgba(0, 109, 119,1);
+    text-transform: uppercase;
+    padding: 0.5rem;
+    height: 40px;
+    width: 150px;
+    font-size: 1.25rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6c757d;
+}
+
+.btn:hover{
+    background-color: #caf0f8;
+}
+
+.btn:active{
+    transform: translate(0, 0.3rem);
+}
+
+.quoteLeft{
+    color: #ced4da;
+    font-size: 4rem;
+    margin-right: 2rem;
+}
+
+.minus{
+    color: #ced4da;
+        margin-right: 1rem;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px){
+    .container{
+        height: auto;
+    }
+    .quoteLeft {
+        font-size: 3rem;
+        margin-right: 1.75rem;
+    }
+    .quote {
+        font-size: 1.5rem;
+    }
+
+    .author {
+        font-size: 1.25rem;
+    }
+
+    .btn{
+        padding: 0.25rem;
+        height: 30px;
+        width: 100px;
+        font-size: 1rem;
+}
+}
+
+@media screen and (max-width: 768px){
+    .container {
+            height: auto;
+        }
+}
